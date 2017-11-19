@@ -1,0 +1,2 @@
+1.Shadow detection there in mog2 method, but blobs are not there
+2. Can we put this method in IDTracker code?
