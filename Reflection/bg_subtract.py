@@ -11,6 +11,7 @@ while(1):
     	break
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     sub = frame - background
+    
     fgmask = cv2.morphologyEx(sub, cv2.MORPH_OPEN, kernel)
     #keypoints = detector.detect(fgmask)
    

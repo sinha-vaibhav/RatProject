@@ -20,7 +20,7 @@ while(1):
     res1 = cv2.convertScaleAbs(avg1)
     res2 = cv2.convertScaleAbs(avg2)
  
-    zcv2.imshow('img',f)
+    cv2.imshow('img',f)
     cv2.imshow('avg1',res1)
     cv2.imshow('avg2',res2)
     k = cv2.waitKey(20)
